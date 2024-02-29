@@ -1,42 +1,32 @@
-section {
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.container {
-  border: 2px solid red;
-
-  color: #ffff;
-}
-.input-field {
-  width: 400px;
-  padding: 10px;
-  font-size: 1rem;
-  color: #ffff;
-  border-radius: 10px;
-  border: 2px solid grey;
-}
-
-button {
-  color: #ffff;
-  margin-left: 2rem;
-  padding: 10px;
-  font-size: 20px;
-  border-radius: 10px;
-  border: 2px solid grey;
-}
-img{
-    
-}
-
-.weather-temp{
-    text-align: center;
-}
-.weather-f{
-    margin-left: 1rem;
-}
-.weather-name {
-  font-size: xx-large;
+.App {
   text-align: center;
+  height: 100vh;
+}
+
+/* Input */
+
+.input-field {
+  border-radius: 10px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  font-size: 25px;
+  padding: 10px;
+  margin: 3rem;
+  border: none;
+}
+
+.btn {
+  border: 0px;
+  font-size: x-large;
+  padding: 10px 20px;
+  border-radius: 10px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+/* Card */
+.card {
+  padding: 10px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border-radius: 20px;
+  margin: 2rem;
 }
